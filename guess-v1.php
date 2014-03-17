@@ -23,7 +23,7 @@ and open the template in the editor.
         $secretNumber = $_SESSION['secretNumber'];
         
         //Get guess from user
-        $guessedNumber = filter_input('INPUT_GET', 'guess' );
+        $guessedNumber = filter_input(INPUT_GET, 'guess' );
         
         //Increase number of guesses
         $numberOfGuesses = ++$_SESSION['guesses'];
